@@ -3,6 +3,6 @@
 
 
 int main() {
-    std::cout<< "Order Book HFT Init" << std::endl;
+    std::cout<< "Order Book" << std::endl;
     return 0;
 }

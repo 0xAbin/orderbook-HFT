@@ -1,0 +1,45 @@
+# Ignore build directories
+/build/
+/cmake-build-debug/
+
+# Ignore CMake generated files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+rules.ninja
+
+# Ignore any external libraries or dependencies
+/external/
+
+/*.log
+/*.tmp
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore CLion or JetBrains IDEs files
+.idea/
+*.iml
+
+# Ignore compiled binaries
+*.out
+*.exe
+*.o
+*.obj
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+
+# Ignore config and data directories if you don't want to track them
+/config/
+/data/
+
+# Ignore debug files
+*.dSYM/
+*.stackdump
+*.core
